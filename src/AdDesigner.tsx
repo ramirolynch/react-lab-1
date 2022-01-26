@@ -4,7 +4,7 @@ export function AdDesigner () {
 
     const [flavor, setFlavor] = useState('Chocolate')
     const [color, setColor] = useState(false)
-    const [fontSize, setFontSize] = useState(20)
+    const [fontSize, setFontSize] = useState(40)
 
     function ChangeFlavor (e:any) {
         setFlavor(e.target.value)
@@ -32,7 +32,7 @@ export function AdDesigner () {
             <h2>Ad Designer</h2>
             <div className={color ? 'lightTheme' : 'darkTheme'}>
                 <p style={fontChange}>Vote For</p>
-                <p style={fontChange}>{flavor}</p>
+                <p className='Caveat' style={fontChange}>{flavor}</p>
             </div>
 
             <h3>What to Support</h3>
@@ -51,7 +51,7 @@ export function AdDesigner () {
             
             <div>
             <button onClick={downSize}>Down</button>
-            <p>{fontSize}</p>
+            <p className='extraPad'>{fontSize}</p>
             <button onClick={upSize}>Up</button>
             </div>
           

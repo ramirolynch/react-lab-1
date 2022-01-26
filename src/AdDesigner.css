@@ -3,7 +3,14 @@
 article:first-of-type {
     display:flex;
     flex-direction: column;
-    padding-left:10em;
+    padding-left:5em;
+    padding-bottom:5em;
+}
+article:nth-of-type(2) {
+
+    padding-left:5em;
+    margin-bottom:5em;
+
 }
 
 article > div:nth-child(11) {
@@ -24,12 +31,16 @@ article > div:nth-child(2) {
 }
 
 
-article > button {
+article > div > button {
     width:fit-content;
 }
 article > h2 {
     font-family: Caveat;
     font-size:3em;
+}
+
+.Caveat {
+    font-family: Caveat;
 }
 
 div > button {
@@ -64,4 +75,9 @@ div > p {
 .lightTheme {
     border: 2px solid #222;
     color: #000;
+}
+
+.extraPad {
+    margin-right:0.2em;
+    margin-left:0.2em;
 }
