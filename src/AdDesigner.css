@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+article:first-of-type {
+    display:flex;
+    flex-direction: column;
+    padding-left:10em;
+}
+
+article > div:nth-child(11) {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:0;
+    margin:0;
+
+}
+
+article > div:nth-child(2) {
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+    padding:2em 2em 2em 2em;
+    width: fit-content; 
+}
+
+
+article > button {
+    width:fit-content;
+}
+article > h2 {
+    font-family: Caveat;
+    font-size:3em;
+}
+
+div > button {
+    height: fit-content;
+    background-color: #0e3c7e;
+    color:white;
+    border-radius:0.4em;
+    padding:0.2em 1em;
+}
+
+div > p {
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+}
+
+.Selected {
+    background-color: #1e60a9;
+    color:white;
+
+}
+.NotSelected {
+    background-color: gray;
+    color:white;
+}
+
+.darkTheme {
+    background-color: #222;
+    color: #fff;
+}
+
+.lightTheme {
+    border: 2px solid #222;
+    color: #000;
+}

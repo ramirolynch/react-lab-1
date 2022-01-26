@@ -1,0 +1,32 @@
+.choco {
+    height:20px;
+    width:210px;
+    background-color: #4F2D2C;
+    border-radius:5px;
+}
+
+.vani {
+    height:20px;
+    width:210px;
+    background-color: #CBBFAD;
+    border-radius:5px;
+}
+
+.straw {
+    height:20px;
+    width:210px;
+    background-color: #DD8D91;
+    border-radius:5px;
+}
+
+article:nth-of-type(2) {
+   padding-right:15%;
+}
+
+article:nth-of-type(2) > button {
+    height: fit-content;
+    background-color: #0e3c7e;
+    color:white;
+    border-radius:0.4em;
+    padding:0.2em 1em;
+}

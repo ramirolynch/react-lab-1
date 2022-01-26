@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 .App {
-  text-align: center;
+  font-family: sans-serif;
 }
 
 .App-logo {
@@ -26,6 +28,13 @@
 
 .App-link {
   color: #61dafb;
+}
+.Main {
+  display:flex;
+}
+
+.Main > article {
+  flex-basis:50%;
 }
 
 @keyframes App-logo-spin {
